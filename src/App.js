@@ -26,7 +26,7 @@ function App() {
       <Heading />
       <MetalMeta numberOfBands={metalData.length} />
 
-      <div id=''>
+      <div id='bandList'>
         {bandCards}
       </div>
     </div>

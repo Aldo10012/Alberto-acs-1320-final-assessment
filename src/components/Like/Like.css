@@ -1,0 +1,11 @@
+.Like {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Like button {
+    height: 50px;
+}

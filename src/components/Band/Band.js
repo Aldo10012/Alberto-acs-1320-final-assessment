@@ -1,7 +1,9 @@
 import './Band.css'
+import Like from '../Like/Like.js'
+
 
 function Band(props) {
-    const {key, name, formed, origin, fans} = props
+    const {keyy, name, formed, origin, fans} = props
 
     return(
         <div className='Band'>
@@ -9,6 +11,10 @@ function Band(props) {
             <p>formed: {formed}</p>
             <p>Origin: {origin}</p>
             <p># of Fans: {fans}</p>
+            <div id='like'>
+                <Like />
+            </div>
+            
         </div>
     )
 }
